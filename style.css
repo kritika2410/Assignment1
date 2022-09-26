@@ -1,0 +1,39 @@
+.header {
+    padding: 10px;
+    background: #0781b2;
+    color: white;
+  }
+
+  a{
+    float: right;
+    margin-top: -40px;
+    color: white;
+  }
+
+  a:hover{
+    color: blue;
+  }
+  h4{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+    padding: 5px 10px;
+  }
+   img{
+    border-radius:50%;
+    margin-left:100px;
+    margin-right:auto;
+   }
+
+  .card{
+    width: 380px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px 20px;
+    color: white;
+    background-color: #0781b2;
+    border-radius: 20px;
+    margin-left:500px;
+    margin-top:10px;
+  }
