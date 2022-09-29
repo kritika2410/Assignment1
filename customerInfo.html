@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Customer Information</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
-        <h2>Bank name </h2>
-        <a href="Logout.html">Logout</a>
+      <img src="bank.png" alt="Bank of Conestoga" />
+      <span id="headerFont">BOC</span>
+      <ul id="navlist">
+        <li>
+          <a href="accountDetails.html" id="current">Account Details</a>
+        </li>
+        <li><a href="#">Customer Info</a></li>
+        <li><a href="interac.html">Interac</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
     </div>
-    <center><h3>Customer Information</h3></center>
-    <hr>
 
-    <div class="card">
-        <img src="girl.jpg" alt="customer image" width="200px">
-    <h4><center> Name : Kerri A<br><br>
-    Address : Ontario<br><br>
-    Phone : +1 223422233<br><br>
-        Email : kerri123@gmail.com<br></center></h4>
+    <div class="wrapper">
+      <div class="text-heading">
+        <h2>Customer Information</h2>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src="girl.jpg" id="customerImage" alt="customer image" />
+          <center>
+            Name : Kerri A<br /><br />
+            Address : Ontario<br /><br />
+            Phone : +1 223422233<br /><br />
+            Email : kerri123@gmail.com<br />
+          </center>
+        </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    
-    <div class="footer">
-
+    <div class="footer" id="footerBottom">
+      <div class="footer-text">Web Technologies &copy; 2022</div>
     </div>
-    
-    
-</body>
+  </body>
 </html>

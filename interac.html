@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interac e-Transfer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="bank.png" alt="Bank of Conestoga" />
+      <span id="headerFont">BOC</span>
+      <ul id="navlist">
+        <li>
+          <a href="accountDetails.html" id="current">Account Details</a>
+        </li>
+        <li><a href="customerInfo.html">Customer Info</a></li>
+        <li><a href="#">Interac</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <div class="text-heading">
+        <h2>Interac e-Transfer</h2>
+        <hr />
+        <div><b>Chequing Account: </b><span id="chequingValue"></span></div>
+      </div>
+      <br />
+      <div class="container">
+        <label for="name">Payee Name</label>
+        <input type="text" name="name" id="name" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" name="phone" id="phone" />
+        <label for="interacQuestion">Interac Question</label>
+        <input type="text" name="interacQuestion" id="interacQuestion" />
+        <label for="interacAnswer">Interac Answer</label>
+        <input type="text" name="interacAnswer" id="interacAnswer" />
+        <label for="amount">Amount</label>
+        <input type="number" name="amount" id="amountWithdraw" />
+        <button id="buttonWithdraw">Send Money</button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-text">Web Technologies &copy; 2022</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
