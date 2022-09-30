@@ -30,17 +30,17 @@ button.addEventListener("click", (e) => {
   carderror.innerHTML = "";
   if (username.value == "") {
     usernameerror.innerHTML = "Username cannot be empty";
-    submitmessage.innerHTML = "Failed Attemt";
+    submitmessage.innerHTML = "Failed Attempt";
     return false;
   } else {
     if (password.value == "") {
       passworderror.innerHTML = "password cannot be empty";
-      submitmessage.innerHTML = "Failed Attemt";
+      submitmessage.innerHTML = "Failed Attempt";
       return;
     } else {
       if (cardnumber.value == "") {
         carderror.innerHTML = "Cardnumber cannot be empty";
-        submitmessage.innerHTML = "Failed Attemt";
+        submitmessage.innerHTML = "Failed Attempt";
         return;
       }
     }
@@ -53,6 +53,6 @@ button.addEventListener("click", (e) => {
   ) {
     window.location.href = "accountDetails.html";
   } else {
-    submitmessage.innerHTML = "Invalid credentials, Failed Attemt";
+    submitmessage.innerHTML = "Invalid credentials, Failed Attempt";
   }
 });
