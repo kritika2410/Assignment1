@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <img src="bank.png" alt="Bank of Conestoga" />
+      <span id="headerFont">BOC</span>
+    </div>
+    <div class="WholeContainer">
+  
+    <form id="LoginForm" method="post" >
+    <div>
+      <span id="Message"></span>
+      <p>&#128522</p>
+    </div>
+
+    <h3 id="LoginLabel">Login</h3>
+    <i class="Label"></i>
+
+    <div class="input-group">
+      <label>Username</label>
+      <input type="text" placeholder="Enter Your Username" id="Username">
+      <span id="username-error"></span>
+    </div>
+
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" placeholder="Enter Your Password" id="Password">
+      <span id="password-error"></span>
+    </div>
+
+    <div class="input-group">
+      <label>Card Number</label>
+      <input type="text" placeholder="Enter Your Card Number" id="CardNumber">
+      <span id="card-error"></span>
+    </div>
+
+    <button type="submit" id="SubmitButton">Submit</button>
+    <span id="submit-message"></span>
+    </div>
+</form>
+<script src="loginpage.js""></script>
+
+<div class="footer">
+  <div class="footer-text">Web Technologies &copy; 2022</div>
+</div>
+  </body>
+</html>
